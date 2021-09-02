@@ -10,6 +10,7 @@
         <Button x:Name="bt_lines" Content="Button" HorizontalAlignment="Left" Margin="649,365,0,0" VerticalAlignment="Top" Width="75" Click="bt_lines_Click"/>
         <Label x:Name="lb_output" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="376" Width="634"/>
         <Button x:Name="bt_getsecond" Content="get second" HorizontalAlignment="Left" Margin="649,339,0,0" VerticalAlignment="Top" Width="75" Click="bt_getsecond_Click"/>
+        <Button Content="editor" HorizontalAlignment="Left" Margin="649,313,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>

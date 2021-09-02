@@ -65,5 +65,24 @@ namespace filreader
             }
             i = 0;
         }
+
+        editor edit = new editor();
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (!edit.opened)
+            {
+                initeditor();
+            }
+            else
+            {
+                edit.Show();
+            }
+        }
+
+        public void initeditor()
+        {
+            edit = new editor();
+            edit.Show();
+        }
     }
 }
